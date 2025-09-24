@@ -18,19 +18,27 @@
     },
     {
       "id": "formateur-en-or",
-      "title": "Un formateur en or"
+      "title": "Un formateur en or",
+      "picture": "formateur-en-or.png",
+      "color": "#fdd627"
     },
     {
       "id": "quitte-ou-double",
-      "title": "Quitte ou Double"
+      "title": "Quitte ou Double",
+      "picture": "quitte-ou-double.png",
+      "color": "#aad594"
     },
     {
       "id": "demele-mots",
-      "title": "Dé-mêle mots"
+      "title": "Dé-mêle mots",
+      "picture": "demele-mots.png",
+      "color": "#1676bd"
     },
     {
-      "id": "grilles-en-delires",
-      "title": "Grilles en délires"
+      "id": "grille-en-delire",
+      "title": "Grille en délire",
+      "picture": "grille-en-delire.png",
+      "color": "#dde0df"
     }
   ]
 }
