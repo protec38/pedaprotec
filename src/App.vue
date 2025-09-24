@@ -30,7 +30,7 @@
   }
 
   function fetchCardsDefinitions() {
-    return fetch('/cards-definitions.json')
+    return fetch('cards-definitions.json')
       .then(response => {
         if (!response.ok) {
           throw new Error('Network response was not ok');
