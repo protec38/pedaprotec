@@ -16,7 +16,7 @@
   })
 
   function openModal(cardTypeId: string) {
-      cardDefinitions.value.forEach(element => {
+      cardDefinitions.value.forEach((element: { id: string; questions: string; }) => {
         if (element.id == cardTypeId) {
           const randomIndex = Math.floor(Math.random() * element.questions.length);
           activeQuestion.value = element.questions[randomIndex]
