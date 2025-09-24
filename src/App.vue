@@ -26,6 +26,7 @@
   }
 
   function closeModal() {
+    console.log("close modal");
     cardModal.close();
   }
 
@@ -42,13 +43,15 @@
 </script>
 
 <template>
-  <section v-for="cardType in cardDefinitions" :id="cardType.id" :key="cardType.id" :style="{ backgroundColor: cardType.color }" @click="openModal(cardType.id)">
-    <img :src="cardType.picture">
+  <section v-for="cardType in cardDefinitions" :id="cardType.id" :key="cardType.id" :style="{ backgroundColor: cardType.color, backgroundImage: 'url('+cardType.picture+')' }" @click="openModal(cardType.id)">
     <h2>{{ cardType.title }}</h2>
   </section>
   <dialog id="card">
-    {{ activeQuestion }}
-    <button id="close" @click="closeModal">Fermer</button>
+    <div id="card-front">
+      <section>{{ activeQuestion }}</section>
+      <nav><button id="close" @click="closeModal">Fermer</button></nav>
+    </div>
+    <div id="card-back"></div>
   </dialog>
 </template>
 

@@ -1,39 +1,81 @@
-html, body {
+html, body, #app {
     height: 100%;
     margin: 0;
 }
 
-body {
+#app {
     display: flex;
     flex-direction: column;
 }
-section {
+#app > section {
     background-color: lightsalmon;
     border-radius: 1vh;
     margin: 1vh;
     padding: 1vh;
     flex-grow: 1;
 
+    min-height: 0;
+
     display: flex;
     align-items: center;
+
+    overflow: hidden;
+
+    background-origin: content-box;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
-section h2 {
+#app > section h2 {
     font-variant: small-caps;
     flex-grow: 1;
     text-align: center;
 }
 
-section img {
-    max-height: 10cqw;
-    max-width: 10cqw;
-}
-
 dialog#card {
     width: 80cqw;
-    height: 80cqh;
+    height: 90cqh;
     border-radius: 1vh;
-    margin-top: 10cqh;
     margin: auto;
+}
 
+dialog#card > div {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+dialog#card nav {
+    flex-grow: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+dialog#card section {
+    flex-grow: 1;
+    text-align: center;
+    
+}
+
+dialog[open] {
+  animation: fadein 1s linear both;
+}
+
+#card-front {
+    backface-visibility: hidden;
+}
+
+#card-back {
+    background: lightblue;
+    transform: rotateX(180deg);
+    backface-visibility: hidden;
+}
+
+@keyframes fadein{
+  0%{
+    transform: rotateX(180deg);
+  }
+  100%{
+    transform: rotateX(0deg);
+  }
 }
