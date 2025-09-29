@@ -130,7 +130,7 @@ main > section h2 {
 /* Back face - initial visible side */
 .card-back {
   background: white;
-  background-image: url('logo_fnpc.png');
+  background-image: url('img/logo_fnpc.png');
   background-size: auto 40%;
   background-repeat: no-repeat;
   background-position: center;
