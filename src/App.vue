@@ -53,9 +53,11 @@
 </script>
 
 <template>
-  <section v-for="cardType in cardDefinitions" :id="cardType.id" :key="cardType.id" :style="{ backgroundColor: cardType.color, backgroundImage: 'url('+cardType.picture+')' }" @click="openModal(cardType.id)">
-    <h2>{{ cardType.title }}</h2>
-  </section>
+  <main>
+    <section v-for="cardType in cardDefinitions" :id="cardType.id" :key="cardType.id" :style="{ backgroundColor: cardType.color, backgroundImage: 'url('+cardType.picture+')' }" @click="openModal(cardType.id)">
+      <h2>{{ cardType.title }}</h2>
+    </section>
+  </main>
   <dialog id="card">
     <!-- Container for 3D perspective -->
     <div class="card-wrapper">
