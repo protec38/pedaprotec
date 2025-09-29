@@ -50,11 +50,18 @@
       });
 
   }
+
+  function getStyle(cardType: { color: any; picture: string }) {
+    return {
+      backgroundColor: cardType.color, 
+      backgroundImage: 'url(img/'+cardType.picture+')' 
+    }
+  }
 </script>
 
 <template>
   <main>
-    <section v-for="cardType in cardDefinitions" :id="cardType.id" :key="cardType.id" :style="{ backgroundColor: cardType.color, backgroundImage: 'url('+cardType.picture+')' }" @click="openModal(cardType.id)">
+    <section v-for="cardType in cardDefinitions" :id="cardType.id" :key="cardType.id" :style="getStyle(cardType)" @click="openModal(cardType.id)">
       <h2>{{ cardType.title }}</h2>
     </section>
   </main>
