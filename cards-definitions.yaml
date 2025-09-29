@@ -1,4 +1,4 @@
-- id: cap-ou-pas-cap
+- id: Cap-ou-pas-Cap
   title: Cap ou Pas Cap
   picture: cap-ou-pas-cap.png
   color: "#f05435"
@@ -13,50 +13,60 @@
       4. Travail de groupe
       5. Le débat
       6. La démonstration commentée justifiée en miroir
+
     - |
       Faire deviner ces 5 techniques pédagogiques à ton équipe sans prononcer les mots interdits
 
       Le défi est remporté si toutes les techniques sont retrouvées (temps max 3 min)
-      - Démonstration commentée justifiée en miroir
+      - **Démonstration commentée justifiée en miroir**
         - _Démonstration - Commenter - Justifier - Miroir - Montrer -Explication - Faire - Exemple_
-      - Mise en situation opérationnelle
+      - **Mise en situation opérationnelle**
         - _Mise - Opérationnelle - Réel - Terrain- Contexte- Pratique- débriefing_
-      - Étude de cas
+      - **Étude de cas**
         - _Étude - Cas - Exemple -Vidéo- Image - Solution- Analyse - Situation_
-      - Exposé directif
+      - **Exposé directif**
         - _Directif - magistral - exposé - professeur - enseigner - leçon - monologue_
-      - Remue-méninges
+      - **Remue-méninges**
         - _brainstorming -idées - tableau - réfléchir - groupe - liste - proposition_
+
     - |
-      CAP ou pas Cap d'expliquer le déroulé d'une démonstration en temps réel ?
+      Cap ou pas Cap d'expliquer le déroulé d'une **démonstration en temps réel** ?
 
       Le défi est remporté si le déroulé expliqué est correct et complet
+
     - |
-      CAP ou pas Cap d'expliquer le déroulé d'une immersion ?
+      Cap ou pas Cap d'expliquer le déroulé d'une **immersion** ?
 
       Le défi est remporté si le déroulé expliqué est correct et complet
+
     - |
-      CAP ou pas Cap d'expliquer le déroulé du café débat ?
+      Cap ou pas Cap d'expliquer le déroulé du **café débat** ?
 
       Le défi est remporté si le déroulé expliqué est correct et complet
+
     - |
-      CAP ou pas Cap d'expliquer le déroulé du tableau silencieux ?
+      Cap ou pas Cap d'expliquer le déroulé du **tableau silencieux** ?
+
 
       Le défi est remporté si le déroulé expliqué est correct et complet
+
     - |
-      CAP ou pas Cap d'expliquer le déroulé du carrousel ?
+      Cap ou pas Cap d'expliquer le déroulé du **carrousel** ?
 
       Le défi est remporté si le déroulé expliqué est correct et complet
+
     - |
-      CAP ou pas Cap d'expliquer le déroulé du travail de groupe ?
+      Cap ou pas Cap d'expliquer le déroulé du **travail de groupe** ?
 
       Le défi est remporté si le déroulé expliqué est correct et complet
+
     - |
-      CAP ou pas Cap d'expliquer le déroulé de la mise en situation opérationnelle ?
+      Cap ou pas Cap d'expliquer le déroulé de la **mise en situation opérationnelle** ?
 
       Le défi est remporté si le déroulé expliqué est correct et complet
+
     - |
-      CAP ou pas Cap d'expliquer le déroulé de l'étude de cas ?
+      Cap ou pas Cap d'expliquer le déroulé de l'**étude de cas** ?
 
       Le défi est remporté si le déroulé expliqué est correct et complet
 
@@ -70,6 +80,70 @@
   title: Un formateur en or
   picture: formateur-en-or.png
   color: "#fdd627"
+  questions:
+    - |
+      En vous appuyant sur le recueil des techniques pédagogiques, citez les activités pouvant être utilisées comme activité de contextualisation ?
+
+      Réponses
+      1. Étude de cas
+      2. Remue-méninges
+      3. Carrousel
+      4. Tableau silencieux
+      5. immersion
+      6. Photo-expression
+      7. Travail de groupe
+      8. Débat
+      9. Jeu des associations
+      10. Chasse aux dangers
+      11. Démonstration en temps réel
+      12. Exposé interactif
+
+    - |
+      En vous appuyant sur le recueil des techniques pédagogiques, citez les activités pouvant être utilisées comme activité de décontextualisation ?
+
+      Réponses
+      1. Travail de groupe
+      2. Débat
+      3. Jeu des associations
+      4. Chasse aux dangers
+      5. Exposé interactif
+      6. Exposé participatif
+      7. Exposé directif
+      8. Démonstration en temps réel
+      9. Démonstration commentée justifiée
+      10. Démonstration commentée justifiée en miroir
+      11. Démonstration pratique dirigée
+      12. Démonstration pratique interactive
+      13. Atelier d’apprentissage du geste
+
+    - Citez dans l'ordre chronologiques les différentes étapes du débriefing
+
+    - En vous appuyant sur le recueil des techniques pédagogiques, énoncer les intérêts et les limites de la démonstration pratique dirigée ?
+
+    - En vous appuyant sur le recueil des techniques pédagogique, énoncer les critères de qualité de la mise en situation opérationnelle ?
+
+    - En vous appuyant sur le recueil des techniques pédagogique, énoncer dans l'ordre chronologique les différentes étapes de la démonstration commentée justifiée ?
+
+    - |
+      Citez les différentes techniques enseignées en PSC (indice, il y en a 13) ?
+      1. Désobstruction par des claques dans le dos
+      2. Désobstruction par compressions abdominales
+      3. Désobstruction par compressions thoraciques chez l’adulte
+      4. Désobstruction par compressions thoraciques chez le nourrisson
+      5. Compression directe
+      6. Garrot
+      7. Libération des voies aériennes
+      8. Position latérale de sécurité - PLS
+      9. Compressions thoraciques
+      10. Insufflations
+      11. Défibrillation
+      12. Manoeuvres physiques
+      13. Maintien de tête
+
+    - Citez les différents outils pédagogiques que vous connaissez ?
+
+
+
 
 - id: quitte-ou-double
   title: Quitte ou Double
@@ -80,8 +154,85 @@
   title: Dé-mêle mots
   picture: demele-mots.png
   color: "#1676bd"
+  questions:
+    - |
+      Lancer les dés alphabétiques et composer le plus de mots possible sur le thème suivant :
+
+      **TECHNIQUES PEDAGOGIQUES**
+    - |
+      Lancer les dés alphabétiques et composer le plus de mots possible sur le thème suivant :
+
+      **OUTILS PEDAGOGIQUES**
+    - |
+      Lancer les dés alphabétiques et composer le plus de mots possible sur le thème suivant :
+
+      **ENCADREMENT**
+    - |
+      Lancer les dés alphabétiques et composer le plus de mots possible sur le thème suivant :
+
+      **TEXTES RÉGLEMENTAIRES**
+    - |
+      Lancer les dés alphabétiques et composer le plus de mots possible sur le thème suivant :
+
+      **GESTION DE CONFLIT**
+    - |
+      Lancer les dés alphabétiques et composer le plus de mots possible sur le thème suivant :
+
+      **DYNAMIQUE DE GROUPE**
+    - |
+      Lancer les dés alphabétiques et composer le plus de mots possible sur le thème suivant :
+
+      **ÉVALUATION**
+    - |
+      Lancer les dés alphabétiques et composer le plus de mots possible sur le thème suivant :
+
+      **QUALIOPI**
 
 - id: grille-en-delire
   title: Grille en délire
   picture: grille-en-delire.png
   color: "#dde0df"
+  questions:
+    - |
+      Retrouver les mots dans la fiche :
+
+      *Mots mêlés*
+
+      **OUTILS PÉDAGOGIQUES**
+    - |
+      Retrouver les mots dans la fiche :
+
+      *Mots mêlés*
+
+      **LA COMMUNICATION EN FORMATION**
+    - |
+      Retrouver les mots dans la fiche :
+
+      *Mots mêlés*
+
+      **LES DYNAMIQUES DE GROUPE**
+    - |
+      Retrouver les mots dans la fiche :
+
+      *Mots croisés*
+
+      **LES TECHNIQUES PÉDAGOGIQUES**
+    - |
+      Retrouver les mots dans la fiche :
+
+      *Mots croisés*
+
+      **L'APPROCHE PAR COMPÉTENCES**
+    - |
+      Retrouver les mots dans la fiche :
+
+      *Mots croisés*
+
+      **LES RÔLES DU FORMATEUR**
+    - |
+      Retrouver les mots dans la fiche :
+
+      *Mots croisés*
+      
+      **LES TYPES D'ÉVALUATION**
+    
