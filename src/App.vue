@@ -3,9 +3,13 @@
   import markdownit from 'markdown-it'
   import YAML from 'yaml'
 
+  import GameCountdown from './GameCountdown.vue';
+
 
   const cardDefinitions = ref()
   const activeQuestion = ref()
+  const hasTimer = ref(false)
+  const timerMinutes = ref(0)
 
   const md = new markdownit({
     html: true,
@@ -25,18 +29,23 @@
   })
 
   function openModal(cardTypeId: string) {
-      cardDefinitions.value.forEach((element: { id: string; questions: string }) => {
+      cardDefinitions.value.forEach((element: { id: string; questions: string; timer: number }) => {
         if (element.id == cardTypeId) {
-          console.log(element)
           const randomIndex = Math.floor(Math.random() * element.questions.length);
           activeQuestion.value = md.render(element.questions[randomIndex])
+          if (element.timer) {
+            console.log("element.timer", element.timer)
+            hasTimer.value = true;
+            timerMinutes.value = element.timer;
+          } else {
+            hasTimer.value = false;
+          }
         }
       });
       cardModal.showModal();
   }
 
   function closeModal() {
-    console.log("close modal");
     cardModal.close();
   }
 
@@ -53,8 +62,8 @@
 
   function getStyle(cardType: { color: any; picture: string }) {
     return {
-      backgroundColor: cardType.color, 
-      backgroundImage: 'url(img/'+cardType.picture+')' 
+      backgroundColor: cardType.color,
+      backgroundImage: 'url(img/'+cardType.picture+')'
     }
   }
 </script>
@@ -73,6 +82,7 @@
         <!-- Front face with content -->
         <div class="card-face card-front">
           <div class="question" v-html="activeQuestion"></div>
+          <game-countdown v-if="hasTimer" :minutes="timerMinutes"></game-countdown>
           <button @click="closeModal">Fermer</button>
         </div>
         <!-- Back face (blue background) -->
