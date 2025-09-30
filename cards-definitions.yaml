@@ -154,6 +154,7 @@
   title: Dé-mêle mots
   picture: demele-mots.png
   color: "#1676bd"
+  timer: 2
   questions:
     - |
       Lancer les dés alphabétiques et composer le plus de mots possible sur le thème suivant&nbsp;:
@@ -192,6 +193,7 @@
   title: Grille en délire
   picture: grille-en-delire.png
   color: "#dde0df"
+  timer: 2
   questions:
     - |
       Retrouver les mots dans la fiche&nbsp;:
