@@ -75,6 +75,376 @@
   title: Question-réponse
   picture: question.png
   color: "#f05568"
+  questions:
+    - |
+      **Quel est le rôle principal du formateur&nbsp;?**
+      
+      1. Accompagner les apprentissages
+      2. Évaluer les apprenants uniquement
+      3. Organiser les plannings
+      4. Transmettre uniquement des connaissances
+      
+      *Réponses*&nbsp;: 1
+      
+    - |
+      **Dans une formation, le formateur est aussi&nbsp;:**
+      
+      1. Un animateur et un évaluateur
+      2. Un décideur politique
+      3. Un gestionnaire administratif uniquement
+      4. Un médiateur
+      
+      *Réponses*&nbsp;: 1, 4
+      
+    - |
+      **L'une des fonctions clés du formateur est de&nbsp;:**
+      
+      1. Adapter sa pédagogie au public
+      2. Éviter l'usage de tout support numérique
+      3. Imposer un style unique d'apprentissage
+      4. Réaliser toutes les tâches administratives de l'APC
+      
+      *Réponses*&nbsp;: 1
+      
+    - |
+      **Le formateur doit connaître les besoins des apprenants pour&nbsp;:**
+      
+      1. Remplir des tableaux de bord
+      2. Adapter les contenus de formation
+      3. Faire plaisir au commanditaire
+      4. Préparer l'examen final
+      
+      *Réponses*&nbsp;: 2
+      
+    - |
+      **Quel est le principal levier pour favoriser l'apprentissage chez l'adulte&nbsp;?**
+      
+      1. L'autorité
+      2. La motivation
+      3. La bonne humeur
+      4. La contrainte
+      
+      *Réponses*&nbsp;: 2
+      
+    - |
+      **Un bon formateur est capable de&nbsp;:**
+      
+      1. Réciter son cours sans interruption
+      2. Gérer des groupes hétérogènes
+      3. Gérer les interactions
+      4. Limiter les échanges
+      
+      *Réponses*&nbsp;: 2, 3
+      
+    - |
+      **Dans un contexte d'apprentissage, le formateur joue aussi un rôle de&nbsp;:**
+      
+      1. Responsable de la progression pédagogique
+      2. Accompagnateur à l'apprentissage personnalisé
+      3. Évaluateur externe sans lien avec le parcours de l'apprenant
+      4. Technicien en support
+      
+      *Réponses*&nbsp;: 1, 2
+      
+    - |
+      **Le formateur doit encourager&nbsp;:**
+      
+      1. Le silence prolongé
+      2. Les questions en fin de session uniquement
+      3. Les exposés magistraux
+      4. La participation active
+      
+      *Réponses*&nbsp;: 4
+      
+    - |
+      **Pour qu'un apprentissage soit transférable, il doit&nbsp;:**
+      
+      1. Être simple et court
+      2. Être théorique uniquement
+      3. Être appliqué en situation réelle
+      4. Suivre une logique administrative
+      
+      *Réponses*&nbsp;: 3
+      
+    - |
+      **Le rôle du formateur dans l'évaluation est de&nbsp;:**
+      
+      1. Valoriser les acquis
+      2. Noter uniquement les erreurs
+      3. Transmettre des notes au supérieur
+      4. Suivre le programme sans écart
+      
+      *Réponses*&nbsp;: 1
+      
+    - |
+      **Un adulte en formation apprend mieux lorsqu'il&nbsp;:**
+      
+      1. Écoute passivement
+      2. Reste seul avec ses supports
+      3. Récite un texte
+      4. Participe activement et mobilise son expérience
+      
+      *Réponses*&nbsp;: 4
+      
+    - |
+      **Les styles d'apprentissage incluent&nbsp;:**
+      
+      1. Visuel, auditif, kinesthésique
+      2. Mémoriel, arbitraire, spontané
+      3. Passif, neutre, dominant
+      4. Oral, écrit, théorique
+      
+      *Réponses*&nbsp;: 1
+      
+    - |
+      **Un apprentissage kinesthésique est un apprentissage basé sur&nbsp;:**
+      
+      1. La lecture
+      2. L'écoute
+      3. La manipulation et le faire faire
+      4. L'écriture
+      
+      *Réponses*&nbsp;: 3
+      
+    - |
+      **Les facteurs de motivation chez l'adulte incluent&nbsp;:**
+      
+      1. La peur de l'échec et la routine
+      2. Le plaisir d'apprendre et le sentiment d'utilité
+      3. La contrainte imposée et l'obligation passive
+      4. La perspective d'évolution
+      
+      *Réponses*&nbsp;: 2, 4
+      
+    - |
+      **Face à un public hétérogène, le formateur doit&nbsp;:**
+      
+      1. Adapter ses méthodes pédagogiques
+      2. Favoriser les échanges entre apprenants
+      3. Supprimer les interactions
+      4. Réduire la durée de formation
+      
+      *Réponses*&nbsp;: 1, 2
+      
+    - |
+      **La gestion des conflits en formation passe par&nbsp;:**
+      
+      1. Ignorer les tensions
+      2. Favoriser l'écoute active et la médiation
+      3. Exclure rapidement les participants en conflit
+      4. Encourager un dialogue ouvert et respectueux pour résoudre les désaccords
+      
+      *Réponses*&nbsp;: 2, 4
+      
+    - |
+      **Le niveau de langage à utiliser en formation doit être&nbsp;:**
+      
+      1. Universitaire
+      2. Adapté au public
+      3. Formel et complexe
+      4. Technique à tout prix
+      
+      *Réponses*&nbsp;: 2
+      
+    - |
+      **Un formateur qui observe une baisse d'attention doit&nbsp;:**
+      
+      1. Poursuivre son exposé sans changement
+      2. Poser des questions pour relancer l'attention
+      3. Alterner les types d'activités
+      4. Réprimander le groupe
+      
+      *Réponses*&nbsp;: 2, 3
+      
+    - |
+      **L'objectif pédagogique décrit&nbsp;:**
+      
+      1. Le niveau de connaissances initial de l'apprenant
+      2. Ce que le formateur prévoit d'expliquer
+      3. Le budget du module
+      4. Les compétences que l'apprenant devra maîtriser
+      
+      *Réponses*&nbsp;: 2, 4
+      
+    - |
+      **Un objectif SMART est&nbsp;:**
+      
+      1. Simple, Mesurable, Accessible, Répétitif, Temporaire
+      2. Spécifique, Mesurable, Atteignable, Réaliste, Temporel
+      3. Sécurisé, Modulable, Attendu, Réformable, Technique
+      4. Structuré, Mobile, Adapté, Référencé, Tactile
+      
+      *Réponses*&nbsp;: 2
+      
+    - |
+      **Une séquence pédagogique est&nbsp;:**
+      
+      1. Une unité de temps dans une journée
+      2. Une succession organisée d'activités d'apprentissage
+      3. Un ensemble de notions théoriques à transmettre
+      4. Une pause
+      
+      *Réponses*&nbsp;: 2
+      
+    - |
+      **Le scénario pédagogique permet&nbsp;:**
+      
+      1. D'improviser en formation
+      2. D'anticiper les activités, supports et méthodes
+      3. De remplacer l'évaluation
+      4. De planifier tout en gardant la possibilité d'adapter
+      
+      *Réponses*&nbsp;: 2, 4
+      
+    - |
+      **Une compétence se caractérise par&nbsp;:**
+      
+      1. Un ensemble de savoirs, savoir-faire et savoir-être intégrés
+      2. Une simple connaissance isolée
+      3. La capacité à appliquer des savoir-faire dans un contexte donné
+      4. Une activité administrative
+      
+      *Réponses*&nbsp;: 1
+      
+    - |
+      **Dans une approche par compétences, l'évaluation porte principalement sur&nbsp;:**
+      
+      1. La démonstration de l'aptitude à agir efficacement dans des situations
+      2. La reproduction exacte d'un cours
+      3. La capacité à régurgiter des informations
+      4. La mise en œuvre pratique et adaptée des savoirs
+      
+      *Réponses*&nbsp;: 1, 4
+      
+    - |
+      **Le remue-méninge est une technique&nbsp;:**
+      
+      1. De contextualisation
+      2. De décontextualisation
+      3. De recontextualisation
+      4. De contextualisation/ décontextualisation
+      
+      *Réponses*&nbsp;: 1
+      
+    - |
+      **La progression pédagogique est&nbsp;:**
+      
+      1. Une série d'exercices à faire à la maison
+      2. Une succession logique d'apprentissages
+      3. Un sommaire du programme
+      4. Un programme imposé par le formateur
+      
+      *Réponses*&nbsp;: 2
+      
+    - |
+      **Quelle est la principale différence entre une compétence et un objectif pédagogique&nbsp;?**
+      
+      1. La compétence décrit une capacité globale à agir dans des situations réelles, tandis que l'objectif pédagogique est un point précis qui contribue à l'acquisition d'une compétence.
+      2. L'objectif pédagogique est plus large et complexe que la compétence
+      3. La compétence se limite à la connaissance théorique, tandis que l'objectif porte uniquement sur la pratique
+      4. L'objectif pédagogique est une évaluation, la compétence un contenu
+      
+      *Réponses*&nbsp;: 1
+      
+    - |
+      **Quel est l'intérêt de varier les méthodes pédagogiques&nbsp;?**
+      
+      1. Maintenir la discipline
+      2. Occuper le temps
+      3. Répondre aux différents styles d'apprenants
+      4. Réduire la charge du formateur
+      
+      *Réponses*&nbsp;: 3
+      
+    - |
+      **Un support pédagogique efficace est&nbsp;:**
+      
+      1. Esthétique uniquement
+      2. Lisible, utile et adapté
+      3. Rempli d'animations
+      4. Complexe et détaillé
+      
+      *Réponses*&nbsp;: 2
+      
+    - |
+      **Quel est le rôle principal du bulletin d'attente en formation&nbsp;?**
+      
+      1. Recueillir les impressions des apprenants sur la formation
+      2. Notifier une absence ou un retard de l'apprenant
+      3. Consigner les questions ou points à approfondir durant la formation
+      4. Servir de support pour l'évaluation finale
+      
+      *Réponses*&nbsp;: 3
+      
+    - |
+      **Quel est le rôle de l'évaluation formative&nbsp;?**
+      
+      1. Sanctionner
+      2. Comparer les apprenants
+      3. Accompagner l'apprentissage
+      4. Mettre en compétition
+      
+      *Réponses*&nbsp;: 3
+      
+    - |
+      **L'évaluation sommative permet de&nbsp;:**
+      
+      1. Diagnostiquer des difficultés
+      2. Créer du débat
+      3. Observer la participation
+      4. Valider des acquis en fin de formation
+      
+      *Réponses*&nbsp;: 4
+      
+    - |
+      **Quel est l'intérêt principal d'une grille critériée d'évaluation&nbsp;?**
+      
+      1. D'évaluer au hasard
+      2. D'objectiver les résultats
+      3. De noter selon l'humeur
+      4. D'éviter les évaluations
+      
+      *Réponses*&nbsp;: 2
+      
+    - |
+      **Dans sa posture, le formateur doit être&nbsp;:**
+      
+      1. Bienveillant, posé et à l'écoute
+      2. Autoritaire et distant
+      3. Passif et neutre
+      4. Ami personnel des stagiaires
+      
+      *Réponses*&nbsp;: 1
+      
+    - |
+      **La reformulation permet&nbsp;:**
+      
+      1. De répéter mot pour mot
+      2. D'aider à la compréhension et à la mémorisation
+      3. D'interrompre l'apprenant
+      4. De résumer un contenu trop dense
+      
+      *Réponses*&nbsp;: 2, 4
+      
+    - |
+      **La dynamique de groupe repose notamment sur&nbsp;:**
+      
+      1. L'individualisme
+      2. La compétition
+      3. L'interaction et la coopération
+      4. Le silence imposé
+      
+      *Réponses*&nbsp;: 3
+      
+    - |
+      **Le questionnement du formateur doit être&nbsp;:**
+      
+      1. Fermé et directif
+      2. Long et complexe
+      3. Varié, ouvert et adapté
+      4. Évitant les réponses
+      
+      *Réponses*&nbsp;: 3
 
 - id: formateur-en-or
   title: Un formateur en or
@@ -84,7 +454,7 @@
     - |
       En vous appuyant sur le recueil des techniques pédagogiques, citez les activités pouvant être utilisées comme activité de contextualisation&nbsp;?
 
-      Réponses
+      *Réponses*
       1. Étude de cas
       2. Remue-méninges
       3. Carrousel
@@ -101,7 +471,7 @@
     - |
       En vous appuyant sur le recueil des techniques pédagogiques, citez les activités pouvant être utilisées comme activité de décontextualisation&nbsp;?
 
-      Réponses
+      *Réponses*
       1. Travail de groupe
       2. Débat
       3. Jeu des associations
@@ -149,6 +519,108 @@
   title: Quitte ou Double
   picture: quitte-ou-double.png
   color: "#aad594"
+  questions:
+    - |
+      1. VRAI/FAUX : L'approche par compétence forme un exécutant à la réalisation d'une tâche.
+      2. Quels sont les 3 types de "savoir" qui composent une compétence ?
+      3. Quel est le lien entre l'approche par compétence et la progression pédagogique ?
+      
+      *Réponses*
+      1. FAUX (c'est l'approche par objectifs qui forme un exécutant à la réalisation d'une tâche : il fait ce qu'on lui a appris à faire. L'approche par compétences forme une personne compétente : elle agit de manière réfléchie, adaptée et autonome.)
+      2. Savoirs, savoir-être, savoir-faire (c'est un savoir-agir).
+      3. L'approche par compétence fixe la finalité de la formation (compétence à atteindre) et la progression pédagogique est le chemin pour y arriver.
+      
+    - |
+      1. Citez les 3 principaux canaux de communication.
+      2. Comment sont appelées toutes les manifestations parasites qui brouillent la communication et gênent la transmission du message ?
+      3. Qu'est-ce que l'effet de halo ?
+      
+      *Réponses*
+      1. Visuel, auditif, kinesthésique.
+      2. Les bruits.
+      3. C'est le jugement par l'apparence.
+      
+    - |
+      1. VRAI/FAUX : Évaluer, c'est qualifier ce qui est mesurable et quantifier ce qui s'apprécie.
+      2. Comment doivent être les critères d'évaluation d'une grille d'évaluation ?
+      3. Quels sont les principaux types d'évaluation utilisés en formation ?
+      
+      *Réponses*
+      1. FAUX (Évaluer, c'est quantifier ce qui est mesurable et qualifier ce qui s'apprécie).
+      2. Clairs, précis, mesurables et objectifs.
+      3. Diagnostique, formative, sommative, certificative, satisfaction.
+      
+    - |
+      1. VRAI/FAUX : Dans une démonstration commentée justifiée, l'association des canaux visuel et kinesthésique facilite la mémorisation de l'apprenant.
+      2. Quel est l'avantage principal d'une démonstration en temps réel pour les apprenants ?
+      3. Que doit vérifier un formateur avant de commencer une démonstration pratique ?
+      
+      *Réponses*
+      1. FAUX (c'est l'association des canaux visuel et auditif qui facilite la mémorisation ; c'est le formateur qui réalise les gestes et pas l'apprenant).
+      2. Permettre aux apprenants d'appréhender l'ensemble de la conduite à tenir telle qu'elle doit être réalisée en situation réelle.
+      3. Le formateur doit avoir le matériel et l'espace nécessaire à la réalisation de la démonstration et veiller à la sécurité et la visibilité pour tous les apprenants.
+      
+    - |
+      1. Donnez un exemple d'activité de contextualisation que vous connaissez.
+      2. À quoi sert une activité de contextualisation au début d'une formation ?
+      3. Quels sont les critères de qualité que doivent remplir les situations choisies lors d'une activité de contextualisation ? (4 réponses attendues)
+      
+      *Réponses*
+      1. Remue-méninges, étude de cas, carrousel, tableau silencieux, travail de groupe, immersion.
+      2. Rechercher les connaissances antérieures des apprenants.
+      3.
+         - Réalisme (situations proches de la réalité des apprenants).
+         - Pertinence (en lien avec leurs missions et objectifs).
+         - Accessibilité (adaptées à leur niveau et vocabulaire).
+         - Capacité à susciter l'intérêt (stimulantes et engageantes).
+      
+    - |
+      Selon l'arrêté du 15 juin 2024 relatif à la filière citoyenne de sécurité civile dans le domaine de la formation aux premiers secours&nbsp;:
+      1. Quel est le nombre maximal de participants requis pour une session de formation "Gestes qui sauvent" ?
+      2. VRAI/FAUX : La durée de la formation GQS est désormais fixée à trois heures minimum ?
+      3. Combien y a-t-il de compétences à atteindre en GQS ?
+      
+      *Réponses*
+      1. 15 participants maximum.
+      2. FAUX (2 heures minimum).
+      3. 3 compétences.
+      
+    - |
+      Selon l'arrêté du 15 juin 2024 relatif à la filière citoyenne de sécurité civile dans le domaine de la formation aux premiers secours&nbsp;:
+      1. Que signifie l'acronyme "PSC" ?
+      2. Un candidat titulaire de l'AFPS (attestation de formation aux premiers secours) peut-il s'inscrire sur une FC PSC ?
+      3. Quelles sont les conditions nécessaires pour obtenir le certificat de compétences en premiers secours citoyen ?
+      
+      *Réponses*
+      1. Premiers secours citoyen.
+      2. Oui.
+      3.
+         - Participer à toutes les phases de la formation.
+         - Réaliser ou faire réaliser tous les gestes de premiers secours au cours des phases d'apprentissage.
+         - Participer une fois au moins, en qualité de sauveteur, à une activité d'application (cas concret, simulation).
+      
+    - |
+      Selon l'arrêté du 15 juin 2024 relatif à la filière opérationnelle de sécurité civile dans le domaine de la formation aux premiers secours et l'arrêté du 21 juillet 2025 modifiant divers arrêtés relatifs aux filières de sécurité civile)&nbsp;:
+      1. Quelle est la durée minimale en présentiel pour la formation initiale PSE1 ?
+      2. Quelle(s) est (sont) la (les) condition(s) d'admission en formation PSE1 ?
+      3. Quelles sont les conditions que doivent remplir les membres de l'équipe pédagogique pour dispenser une formation PSE1 ?
+      
+      *Réponses*
+      1. 35 heures.
+      2. Être âgé de 16 ans ou plus.
+      3. Être désignés par un organisme habilité et être inscrits sur la liste d'aptitude pédagogique déclarée auprès du préfet du département où se déroule la formation.
+      
+    - |
+      Selon l'arrêté du 15 juin 2024 relatif à la filière opérationnelle de sécurité civile dans le domaine de la formation aux premiers secours et l'arrêté du 21 juillet 2025 modifiant divers arrêtés relatifs aux filières de sécurité civile)&nbsp;:
+      
+      1. Un candidat âgé de 17 ans et titulaire du bloc de compétences "Agir en qualité d'équipier secours d'urgences aux personnes", délivré par un service d'incendie et de secours, souhaite s'inscrire à une formation PSE2. Est-ce possible ?
+      2. Quelle est la durée minimale en présentiel pour la formation initiale PSE2 ?
+      3. Quelle est la compétence commune au PSE1 et PSE2 ?
+      
+      *Réponses*
+      1. Oui.
+      2. 28 heures.
+      3. Réaliser un bilan et assurer sa transmission aux services appropriés.
 
 - id: demele-mots
   title: Dé-mêle mots
