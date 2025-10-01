@@ -34,11 +34,13 @@ main > section {
     background-origin: content-box;
     background-size: contain;
     background-repeat: no-repeat;
+
+    box-shadow: black 1px 1px 1px;
 }
 
 main > section h2 {
     font-variant: small-caps;
-    text-shadow: white 0 0 1rem;
+    text-shadow: white 1px 1px 1px;
     flex-grow: 1;
     text-align: center;
 }
@@ -147,8 +149,8 @@ main > section h2 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: 1.5rem;
   margin: 0;
+  padding: 1rem;
   font-size: 3vh;
 }
 
