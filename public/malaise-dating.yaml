@@ -1,0 +1,14 @@
+- id: signes
+  title: Signes
+  color: "blue"
+  questions:
+
+- id: CAT
+  title: Conduites à tenir
+  color: "#189060"
+  questions:
+
+- id: bilan
+  title: Bilan
+  color: "#f48923"
+  questions:
