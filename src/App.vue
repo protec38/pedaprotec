@@ -26,7 +26,7 @@
   function loadGame(gameId: string) {
     const game = gamesList.find(game => game.id === gameId)
     if (game) {
-      fetchCardsDefinitions(new URL(game.definitionFile, window.location.origin)).then((value) => {
+      fetchCardsDefinitions(new URL(game.definitionFile, window.location)).then((value) => {
         selectedGame.value = value
       })
     } else {
