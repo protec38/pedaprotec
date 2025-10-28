@@ -23,10 +23,10 @@
     }
   })
 
-  function loadGame(gameId) {
+  function loadGame(gameId: string) {
     const game = gamesList.find(game => game.id === gameId)
     if (game) {
-      fetchCardsDefinitions(game.definitionFile).then((value) => {
+      fetchCardsDefinitions(new URL(game.definitionFile, window.location.origin)).then((value) => {
         selectedGame.value = value
       })
     } else {
@@ -34,7 +34,7 @@
     }
   }
 
-  function selectGame(gameId) {
+  function selectGame(gameId: string) {
     localStorage.setItem("selected_game", gameId)
     loadGame(gameId)
   }
