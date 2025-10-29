@@ -38,7 +38,7 @@
     } else {
       hasTimer.value = false;
     }
-
+    
     cardModal.showModal();
   }
 
@@ -220,11 +220,11 @@
     font-size: 3vh;
   }
 
-  .question strong {
+  .question :deep(strong) {
     color: var(--orange-protec)
   }
 
-  .question em {
+  .question :deep(em) {
     color: var(--bleu-protec);
   }
 
