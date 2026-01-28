@@ -12,6 +12,8 @@
   })
 
   const activeQuestion = ref()
+  const activeResponse = ref()
+  const showResponse = ref(false)
   const hasTimer = ref(false)
   const timerMinutes = ref(0)
 
@@ -23,13 +25,36 @@
 
   let cardModal: HTMLDialogElement;
 
+  function showHideResponseGame() {
+
+    showResponse.value = !showResponse.value
+    localStorage.setItem("showResponse", String(showResponse.value))
+  }
+
   onMounted(() => {
     cardModal = document.getElementById("card") as HTMLDialogElement;
+
+    showResponse.value = localStorage.getItem("showResponse") == "true";
+    // TODO : console.log
+    console.log(`showResponse (GameCore.onMounted): ${showResponse.value}`)
   })
 
   function openModal(cardType: { questions: string[]; timer?: number }) {
     const randomIndex = Math.floor(Math.random() * cardType.questions.length);
-    activeQuestion.value = md.render(cardType.questions[randomIndex])
+
+    if (cardType.questions[randomIndex].question && cardType.questions[randomIndex].response) {
+      
+      activeQuestion.value = md.render(cardType.questions[randomIndex].question)
+      activeResponse.value = md.render(cardType.questions[randomIndex].response)
+    }
+    else {
+      console.log("Propriété 'question' et/ou 'response' non trouvée dans cardType.questions[randomIndex] :")
+
+      showResponse.value = false // désactiver l'affichage de la réponse si non présente
+
+      activeQuestion.value = md.render(cardType.questions[randomIndex])
+      activeResponse.value = null
+    }
 
     if (cardType.timer) {
       console.log("cardType.timer", cardType.timer)
@@ -67,9 +92,22 @@
       <div class="card">
         <!-- Front face with content -->
         <div class="card-face card-front">
-          <div class="question" v-html="activeQuestion"></div>
+          <div class="question">
+            <div v-html="activeQuestion"></div>
+          <span
+            :style="showResponse ? 'visibility : visible' : 'visibility : hidden'"
+            v-html="activeResponse"
+          ></span>
+          </div>
+
           <game-countdown v-if="hasTimer" :minutes="timerMinutes"></game-countdown>
-          <button @click="closeModal">Fermer</button>
+          <span class="buttons">
+            <button @click="closeModal">Fermer</button>
+            <button
+              v-if="activeResponse !== null"
+              @click="showHideResponseGame"
+            > Réponse </button>
+          </span>
         </div>
         <!-- Back face (blue background) -->
         <div class="card-face card-back"></div>
@@ -227,10 +265,10 @@
   .question :deep(em) {
     color: var(--bleu-protec);
   }
-
   /* Close button */
   button {
     padding: 0.5rem 2rem;
+    margin-left: 5px;
     font-size: 1rem;
     border: 1px solid #ccc;
     border-radius: 5px;
