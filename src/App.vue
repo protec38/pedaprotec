@@ -57,9 +57,6 @@
 
   function toggleSidebar() {
     sidebarOpen.value = !sidebarOpen.value
-
-    // recharge la valeur pouvant avoir été changée dans GameCore.vue
-    showResponse.value = localStorage.getItem("showResponse") == "true"
   }
 
   function fetchCardsDefinitions(definitionFile: URL) {
