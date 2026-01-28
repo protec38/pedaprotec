@@ -25,21 +25,20 @@
 
   let cardModal: HTMLDialogElement;
 
-  function showHideResponseGame() {
+  function showHideResponse() {
 
     showResponse.value = !showResponse.value
-    localStorage.setItem("showResponse", String(showResponse.value))
   }
 
   onMounted(() => {
     cardModal = document.getElementById("card") as HTMLDialogElement;
-
-    showResponse.value = localStorage.getItem("showResponse") == "true";
     // TODO : console.log
     console.log(`showResponse (GameCore.onMounted): ${showResponse.value}`)
   })
 
   function openModal(cardType: { questions: string[]; timer?: number }) {
+
+    showResponse.value = localStorage.getItem("showResponse") == "true";
     const randomIndex = Math.floor(Math.random() * cardType.questions.length);
 
     if (cardType.questions[randomIndex].question && cardType.questions[randomIndex].response) {
@@ -105,7 +104,7 @@
             <button @click="closeModal">Fermer</button>
             <button
               v-if="activeResponse !== null"
-              @click="showHideResponseGame"
+              @click="showHideResponse"
             > Réponse </button>
           </span>
         </div>
