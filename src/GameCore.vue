@@ -13,7 +13,10 @@
 
   const activeQuestion = ref()
   const activeResponse = ref()
+
+  const hasResponse = ref(false)
   const showResponse = ref(false)
+  
   const hasTimer = ref(false)
   const timerMinutes = ref(0)
 
@@ -41,12 +44,14 @@
 
     if (cardType.questions[randomIndex].question && cardType.questions[randomIndex].response) {
       
+      hasResponse.value = true
+
       activeQuestion.value = md.render(cardType.questions[randomIndex].question)
       activeResponse.value = md.render(cardType.questions[randomIndex].response)
     }
     else {
 
-      showResponse.value = false // désactiver l'affichage de la réponse si non présente
+      hasResponse.value = false
 
       activeQuestion.value = md.render(cardType.questions[randomIndex])
       activeResponse.value = null
@@ -91,7 +96,7 @@
           <div class="question">
             <div v-html="activeQuestion"></div>
           <span
-            :style="showResponse ? 'visibility : visible' : 'visibility : hidden'"
+            :class="hasResponse && showResponse ? 'showResponse' : 'hideResponse'"
             v-html="activeResponse"
           ></span>
           </div>
@@ -100,7 +105,7 @@
           <span class="buttons">
             <button @click="closeModal">Fermer</button>
             <button
-              v-if="activeResponse !== null"
+              v-if="hasResponse"
               @click="showHideResponse"
             > Réponse </button>
           </span>
@@ -261,6 +266,17 @@
   .question :deep(em) {
     color: var(--bleu-protec);
   }
+
+  .showResponse {
+
+    visibility: visible;
+  }
+
+  .hideResponse {
+
+    visibility: hidden;
+  }
+  
   /* Close button */
   button {
     padding: 0.5rem 2rem;
