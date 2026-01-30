@@ -6,16 +6,20 @@
 
   const props = defineProps({
     definition: {
-    type: Object,
-    required: true,
+      type: Object,
+      required: true,
+    },
+    showResponseGlobal: {
+      type: Boolean,
+      required: true
     }
   })
 
   const activeQuestion = ref()
   const activeResponse = ref()
 
-  const hasResponse = ref(false)
   const showResponse = ref(false)
+  const hasResponse = ref(false)
   
   const hasTimer = ref(false)
   const timerMinutes = ref(0)
@@ -39,7 +43,7 @@
 
   function openModal(cardType: { questions: string[]; timer?: number }) {
 
-    showResponse.value = localStorage.getItem("showResponse") == "true";
+    showResponse.value = props.showResponseGlobal
     const randomIndex = Math.floor(Math.random() * cardType.questions.length);
 
     if (cardType.questions[randomIndex].question && cardType.questions[randomIndex].response) {
