@@ -6,6 +6,8 @@
   import GameSelector from './GameSelector.vue';
 
   const selectedGame = ref();
+  const showResponseGlobal = ref(false);
+
   const sidebarOpen = ref(false);
   const gamesList = [
     {id: 'mission-pedago', title: "Mission pédago", definitionFile: "mission-pedago.yaml"}, 
@@ -15,6 +17,8 @@
 
   onMounted(() => {
     const selectedGameId = localStorage.getItem("selected_game");
+    showResponseGlobal.value = localStorage.getItem("showResponseGlobal") == "true"
+
     if (selectedGameId != null) {
       try {
         loadGame(selectedGameId)
@@ -38,6 +42,12 @@
   function unloadGame() {
     selectedGame.value = undefined
     localStorage.removeItem("selected_game")
+  }
+  
+  function showHideResponseGame() {
+
+    showResponseGlobal.value = !showResponseGlobal.value
+    localStorage.setItem("showResponseGlobal", String(showResponseGlobal.value))
   }
 
   function selectGame(gameId: string) {
@@ -77,6 +87,10 @@
     </header>
     <section class="sidebar-content">
       <button @click="unloadGame">Retour au choix de jeu</button>
+      <button @click="showHideResponseGame">
+        <span v-if="showResponseGlobal">Ne pas montrer les réponses</span>
+        <span v-else>Montrer les réponses</span>
+      </button>
     </section>
   </nav>
 
@@ -85,7 +99,7 @@
 
   <!-- Main Content Area -->
   <GameSelector v-if="selectedGame == null" :gamesList="gamesList" @gameSelected="selectGame"/>
-  <GameCore v-else :definition="selectedGame"/>
+  <GameCore v-else :definition="selectedGame" :showResponseGlobal/>
 
   <footer>Mission pédago © 2025 par <a href="https://www.protection-civile.org">Fédération Nationale de Protection Civile</a> et adapté par <a href="https://isere.protection-civile.org">Association de Protection Civile de l'Isère</a> sous licence <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/nd.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"></footer>
 </template>
@@ -223,6 +237,7 @@
   .sidebar-content button {
     width: 100%;
     padding: 12px 16px;
+    margin-bottom: 10px;
     border: 1px solid #e0e0e0;
     background: white;
     color: var(--bleu-protec);
