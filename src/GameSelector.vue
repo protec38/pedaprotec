@@ -11,7 +11,9 @@
 <template>
   <main>
     <h1>Sélectionner un jeu !</h1>
-    <a v-for="{title, id} in props.gamesList" :key="id" @click="$emit('gameSelected', id)">{{ title }}</a>
+    <span class="game-list">
+      <a v-for="{title, id} in props.gamesList" :key="id" @click="$emit('gameSelected', id)">{{ title }}</a>
+    </span>
   </main>
 </template>
 
@@ -28,14 +30,39 @@
     font-size: xx-large;
   }
 
+  .game-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
   a {
     display: block;
+
     border: 1px solid black;
     border-radius: 1vh;
+
     margin: 1vh;
-    text-align: center;
+    padding: 1vh;
+
+    overflow: clip;
+    text-overflow: clip;
+
     box-shadow: 0px 1px 1px whitesmoke;
     background-color: whitesmoke;
+
+    width: 50%;
+    max-width: 95vw;
+    min-width: fit-content;
+
+    height: auto;
+    
+    text-align: center;
+    font-size: large;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+
   }
 
   a:hover {
