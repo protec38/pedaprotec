@@ -32,8 +32,6 @@
 
   onMounted(() => {
     cardModal = document.getElementById("card") as HTMLDialogElement;
-    // TODO : console.log
-    console.log(`showResponse (GameCore.onMounted): ${showResponse.value}`)
   })
 
   function openModal(cardType: { questions: string[]; timer?: number }) {
@@ -47,7 +45,6 @@
       activeResponse.value = md.render(cardType.questions[randomIndex].response)
     }
     else {
-      console.log("Propriété 'question' et/ou 'response' non trouvée dans cardType.questions[randomIndex] :")
 
       showResponse.value = false // désactiver l'affichage de la réponse si non présente
 
