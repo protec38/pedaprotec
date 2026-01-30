@@ -36,7 +36,7 @@
     align-items: center;
     justify-content: center;
   }
-
+  
   a {
     display: block;
 
@@ -61,6 +61,7 @@
     text-align: center;
     font-size: large;
     text-decoration: none;
+    transition: background-color 0.3s ease;
 
   }
 
