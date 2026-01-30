@@ -31,126 +31,125 @@
   title: Bilan
   color: "#f48923"
   questions:
-    -
-      question: |
+    - question: |
         **Vrai ou Faux**
         
         Lors d'un AVC, la victime peut être installée en PLS.
 
       response: |
         *Vrai*
-    -
-      question: |
+
+    - question: |
         **Vrai ou Faux**
 
         Lors d'un malaise évocateur d'un AVC, une glycémie doit être réalisée. Celle-ci doit rapidement faite lors du 3ème regard.
 
       response: |
         *Faux — La glycémie sera faite lors du 4ème regard.*
-    -
-      question: |
+
+    - question: |
         **Vrai ou Faux** 
         Lors d'une crise convulsive généralisée chez un enfant, une prise de température doit être réalisée lors du 4ème regard.
 
       response: |
         *Vrai*
-    -
-      question: |
+
+    - question: |
         **Vrai ou Faux**
 
         Lors d'une crise convulsive généralisée, la protection de la tête de la victime doit être réalisée rapidement en glissant si possible un vêtement ou un tissu plié sous la tête (sans recouvrir les voies aériennes)
 
       response: |
         *Vrai*
-    -
-      question: |
+
+    - question: |
         **Vrai ou Faux**
 
         Lors d'une crise convulsive généralisée, les éléments tels que la recherche d'éventuels signes de traumatismes, l'heure de survenue et la durée de la crise sont nécessaires dans le bilan.
 
       response: |
         *Vrai*
-    -
-      question: |
+
+    - question: |
         **Vrai ou Faux**
 
         Lors d'un crise convulsive généralisée, un maintien de tête réalisé dès le 1er regard est préconisé
+
       response: |
         *Faux — Ne jamais contraindre les mouvements de la victime durant la crise*
-    -
-      question: |
+
+    - question: |
         **Vrai ou Faux**
 
         Lors d'une crise d'asthme, l'aide à la prise de médicaments se fait lors du 4ème regard
 
       response: |
         *Vrai*
-    -
-      question: |
+
+    - question: |
         **Vrai ou Faux**
 
         Lors d'une crise d'asthme avérée, soustraire la victime aux facteurs ayant déclenché la crise n'est plus utile.
 
       response: |
         *Faux*
-    -
-      question: |
+
+    - question: |
         **Vrai ou Faux**
 
         Lors d'une Douleur thoracique (non traumatique), il est conseillé d'installer la victime dans la position où elle se sent le mieux
 
       response: |
         *Vrai*
-    -
-      question: |
+
+    - question: |
         **Vrai ou Faux**
 
         Lors d'une Douleur thoracique (non traumatique), il n'est pas nécessaire d'avoir un défibrilateur à proximité.
 
       response: |
         *Faux*
-    -
-      question: |
+
+    - question: |
         **Vrai ou Faux**
 
         Lors d'un malaise hypoglycémique chez le diabétique, il faut compter environ 10 à 15 minutes entre l'ingestion du sucre, une élévation de la glycémie et une amélioration des signes.
 
       response: |
         *Vrai*
-    -
-      question: |
+
+    - question: |
         **Vrai ou Faux**
 
         Lors d'un malaise hypoglycémique chez le diabétique, les normes en dessous desquelles il faut aider la victime à prendre du sucre sont < 3,3 mmol/l (ou < 60 mg/dl ou < 0,6 g/l)
 
       response: |
         *Vrai*
-    -
-      question: |
+
+    - question: |
         **Vrai ou Faux**
 
         Lors d'un malaise hypoglycémique chez le diabétique, si aucune amélioration ne survient au bout de 15 minutes suite à une ingestion de sucre, une régulation médicale doit impérativement être effectuée.
 
       response: |
         *Faux — Si aucune amélioration au bout de 15 minutes, une seconde dose de sucre peut être prise.*
-    -
-      question: |
+    - question: |
         **Vrai ou Faux**
 
         Lors d'une réaction allergique grave, en l'absence d'amélioration ou en cas de récidive dans les 10 à 15 minutes qui suivent la première injection, une deuxième injection à l'aide de l'auto-injecteur peut être réalisée.
 
       response: |
         *Vrai*
-    -
-      question: |
+
+    - question: |
         **Vrai ou Faux**
 
         Lors d'une réaction allergique grave, si la victime possède un traitement pour lutter contre les réactions allergiques graves (auto-injecteur d'adrénaline – AIA) l'administration de l'adrénaline ne peut se faire qu'après validation du médecin régulateur
 
       response: |
         *Faux*
-    -
-      question: |
+
+    - question: |
         **Parmi ces signes, lesquels n'appartiennent pas au FAST&nbsp;?**
 
         1. Déformation de la bouche (asymétrie faciale)  
@@ -160,8 +159,8 @@
 
       response: |
         *Réponse&nbsp;: 4*
-    -
-      question: |
+
+    - question: |
         **Lors d'un AVC, à l'interrogatoire, quel élément est prioritaire pour l'orientation du traitement spécialisé&nbsp;?**
 
         1. Habitudes alimentaires  
@@ -171,8 +170,8 @@
 
       response: |
         *Réponse&nbsp;: 2*
-    -
-      question: |
+
+    - question: |
         **Parmi ces situations, laquelle impose de ne pas conclure à un AVC avant correction / élimination&nbsp;?**
 
         1. Mal de tête brutale inhabituelle  
@@ -182,8 +181,8 @@
 
       response: |
         *Réponse&nbsp;: 2*
-    -
-      question: |
+
+    - question: |
         **Chez le nourrisson, quel facteur déclenchant est fréquent lors d'une crise convulsive&nbsp;?**
 
         1. Déshydratation légère  
@@ -193,8 +192,8 @@
 
       response: |
         *Réponse&nbsp;: 2*
-    -
-      question: |
+
+    - question: |
         **Quelle est la durée habituelle de la phase de secousses d'une crise convulsive généralisée&nbsp;?**
 
         1. Moins de 5 minutes  
@@ -204,8 +203,8 @@
 
       response: |
         *Réponse&nbsp;: 1*
-    -
-      question: |
+
+    - question: |
         **Qu'appelle-t-on état de mal convulsif&nbsp;?**
 
         1. Une crise unique avec retour rapide à la normale  
@@ -215,8 +214,8 @@
 
       response: |
         *Réponse&nbsp;: 2*
-    -
-      question: |
+
+    - question: |
         **Parmi les facteurs suivants, lequel peut déclencher une crise d'asthme chez un asthmatique&nbsp;?**
 
         1. Fracture récente  
@@ -226,8 +225,8 @@
 
       response: |
         *Réponse&nbsp;: 3*
-    -
-      question: |
+
+    - question: |
         **Quel médicament l'asthmatique utilise le plus souvent en cas de crise&nbsp;?**
 
         1. Antibiotique par voie orale  
@@ -237,8 +236,9 @@
 
       response: |
         *Réponse&nbsp;: 4*
-    -
-      question: |
+
+    - question: |
+
         **En l'absence de prise en charge rapide, quelle évolution est possible lors d'une crise d'asthme&nbsp;?**
 
         1. Guérison immédiate spontanée dans tous les cas  
@@ -248,28 +248,30 @@
 
       response: |
         *Réponse&nbsp;: 2*
-    -
-      question: |
+
+    - question: |
         **Lors d'une douleur thoracique, quel signe peut accompagner la douleur et témoigne de la gravité de la maladie&nbsp;?**
 
         1. Convulsion  
         2. Épistaxis isolée  
         3. Malaise avec pâleur et sueurs  
         4. Douleur à la palpation d'un orteil
+
       response: |
         *Réponse&nbsp;: 3*
-    -
-      question: |
+
+    - question: |
         **Parmi les circonstances suivantes, laquelle oriente vers une cause spécifique possible de douleur thoracique&nbsp;?**
 
         1. Marche quotidienne de 20 minutes  
         2. Descente d'avion récente  
         3. Collation sucrée  
         4. Exposition au froid modéré
+
       response: |
         *Réponse&nbsp;: 2*
-    -
-      question: |
+
+    - question: |
         **Quel facteur favorise la survenue d'une hypoglycémie chez le diabétique&nbsp;?**
 
         1. Alimentation riche en sucres lents  
@@ -279,8 +281,8 @@
 
       response: |
         *Réponse&nbsp;: 2*
-    -
-      question: |
+
+    - question: |
         **Concernant la mesure de la glycémie capillaire lors du bilan chez une personne diabétique, quelle conduite est correcte&nbsp;?**
 
         1. Utiliser de préférence l'appareil de la victime et transmettre la valeur avec son unité  
@@ -290,8 +292,8 @@
 
       response: |
         *Réponse&nbsp;: 1*
-    -
-      question: |
+
+    - question: |
         **Quel diagnostic peut être mimé par une hypoglycémie (d'où l'intérêt de mesurer la glycémie)&nbsp;?**
 
         1. Appendicite  
@@ -301,8 +303,8 @@
 
       response: |
         *Réponse&nbsp;: 2*
-    -
-      question: |
+
+    - question: |
         **Quel tableau oriente le plus vers une réaction allergique grave au 2e/3e regard&nbsp;?**
 
         1. Sifflement expiratoire avec souffle court après exposition à un allergène  
@@ -312,8 +314,8 @@
 
       response: |
         *Réponse&nbsp;: 1*
-    -
-      question: |
+
+    - question: |
         **Quel signe témoigne d'une détresse circulatoire au cours d'une réaction allergique grave&nbsp;?**
 
         1. Pouls radial difficile à percevoir avec chute de la pression artérielle  
